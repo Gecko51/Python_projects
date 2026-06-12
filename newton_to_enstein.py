@@ -1,7 +1,7 @@
 # --- Initial variables representing physical properties ---
 
 
-train_mass = 22680        # Mass of the GE train in kilograms
+train_mass = 22680       # Mass of the GE train in kilograms
 train_acceleration = 10  # Acceleration of the train in m/s²
 train_distance = 100     # Distance traveled by the train in meters
 bomb_mass = 1            # Mass of the bomb in kilograms
@@ -12,7 +12,7 @@ bomb_mass = 1            # Mass of the bomb in kilograms
 # Formula: (F - 32) * 5/9
 def f_to_c(f_temp):
   c_temp = (f_temp - 32) * 5/9  # Apply the Fahrenheit to Celsius conversion formula
-  return c_temp                  # Return the result in Celsius
+  return c_temp                 # Return the result in Celsius
 
 
 # Task 2: Test f_to_c with 100°F and store the result
@@ -25,7 +25,7 @@ f100_in_celsius = f_to_c(100)   # Convert 100 Fahrenheit to Celsius
 # Formula: (C * 9/5) + 32
 def c_to_f(c_temp):
   f_temp = ((c_temp * 9/5) + 32)  # Apply the Celsius to Fahrenheit conversion formula
-  return f_temp                    # Return the result in Fahrenheit
+  return f_temp                   # Return the result in Fahrenheit
 
 
 # Task 4: Test c_to_f with 0°C and store the result
